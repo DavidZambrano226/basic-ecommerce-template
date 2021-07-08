@@ -6,9 +6,34 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="./header.style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        <ul id="menu">
+            <li>
+                <a href="#">All</a>
+            </li>
+            <li>
+                <a href="#">Branding</a>
+             </li>
+            <li>
+                <a href="#">Web</a>
+             </li>
+            <li>
+                <a href="#">Photography</a>
+             </li>
+            <li>
+                <a href="#">App</a>
+            </li>
+        </ul>
+       </div>
+      </nav>
     <header>
         Your Logo here
         <ul class="Navigation">
@@ -28,7 +53,9 @@
                 <a href="#">App</a>
             </li>
             <li>
-                <a href="#">Search icon</a>
+                <a href="#">
+                    <img src="./assets/img/search_loupe.svg" alt="search logo">
+                </a>
             </li>
         </ul>
     </header>
@@ -41,16 +68,16 @@
             <p>Magna mundi referrentur quo, no rebum dignissim qui. Per quodsi accusata id, agam labores.</p>
         </div>
         <div class="carousel_action">
-            <button>View our work</button>
+            <button class="btn btn-primary">View our work</button>
         </div>
     </div>
     <section class="products_section">
         <div class="products_section-views">
             <button>
-                &#9776;
+                &#9871;
             </button>
             <button>
-                &#9781;
+                &#9868;
             </button>
         </div>
         <div class="products_section-filters">
@@ -74,27 +101,28 @@
         </div>
         
         <div id="product_cards" class="cards-container">
-            <div class="card">
 
-            </div>
-            <div class="card">
-
-            </div>
-            <div class="card">
-
-            </div>
-            <div class="card">
-
-            </div>
-    
+        </div>
+        <div class="product_action">
+            <button class="btn btn-secondary">Show me more</button>
         </div>
     </section>
 
     <footer>
-        @2016 - <a href="#">Sneak</a> All Rights Reserved
+        <div>
+            @2016 - <a href="#" class="link">Sneak</a> All Rights Reserved
+        </div>
+        <div class="social-links">
+            <a href="#">
+                <img src = "./assets/img/instagram.svg" alt="Instagram Svg"/>
+            </a>
+            <a href="#">
+                <img src = "./assets/img/youtube.svg" alt="Youtube Svg"/>
+            </a>
+        </div>
     </footer>
 
-    <!-- <script type="module" src="./products.js"></script> -->
+    <script type="module" src="./products.js"></script>
 
 </body>
 </html>
