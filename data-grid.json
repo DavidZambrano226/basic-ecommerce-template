@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "title": "Custom Tilte",
+            "Subtitle": "Custom Subtitle",
+            "buttonText": "Redirect"
+        },
+        {
+            "title": "Custom Tilte",
+            "Subtitle": "Custom Subtitle",
+            "buttonText": "Redirect"
+        },
+        {
+            "title": "Custom Tilte",
+            "Subtitle": "Custom Subtitle",
+            "buttonText": "Redirect"
+        },
+        {
+            "title": "Custom Tilte",
+            "Subtitle": "Custom Subtitle",
+            "buttonText": "Redirect"
+        },
+        {
+            "title": "Custom Tilte",
+            "Subtitle": "Custom Subtitle",
+            "buttonText": "Redirect"
+        }
+    ]
+}

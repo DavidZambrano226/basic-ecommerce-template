@@ -2,6 +2,7 @@ body {
   font-family: Questrial;
   margin: 0;
   padding: 0;
+  height: auto;
 }
 
 /* Header style */
@@ -12,6 +13,7 @@ header {
   justify-content: space-between;
   left: 0px;
   /* position: absolute; */
+  margin: 0 40px;
   padding: 0 0 0 5px;
   top: 0px;
 }
@@ -30,7 +32,7 @@ li {
 li > a {
   color: black;
   text-decoration: none;
-  padding: 8px;
+  padding: 5px 15px 5px 15px;
 }
 li > a.active {
   background: #ff5672;
@@ -41,7 +43,7 @@ li > a.active {
 
 .carousel {
   align-items: center;
-  background: #ff5672;
+  background: #fc758c;
   color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -75,37 +77,50 @@ li > a.active {
   text-decoration: none;
 }
 
+/* Products Section Styles */
+
+.products_section {
+  margin-top: 50px;
+}
+
+.products_section-views {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.products_section-views > button {
+  background: transparent;
+  border: none;
+  color: #ff5672;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 5px 0 5px;
+}
+.products_section-filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Product Card */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 150px;
+}
+.card {
+  background-color: #f2f2f4;
+  width: 200px;
+  height: 200px;
+}
+
 /* Fonts import */
 
 @font-face {
   font-family: Questrial;
   src: url('./assets/fonts/Questrial-Regular.ttf');
 }
-
-.Magna_mundi_referren {
-  font-size: 17px;
-  font-family: "Myriad Pro";
-  color: rgb(255, 255, 255);
-  line-height: 1.333;
-  text-align: center;
-  position: absolute;
-  left: 681.844px;
-  top: 541.55px;
-  z-index: 56;
-}
-
-.EXPLORE_BEYOND_HORIZ {
-  font-size: 40px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  line-height: 1.2;
-  position: absolute;
-  left: 539.844px;
-  top: 436.677px;
-  z-index: 57;
-}
-
 
 
 
